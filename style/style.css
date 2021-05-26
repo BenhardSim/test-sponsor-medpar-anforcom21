@@ -76,14 +76,18 @@ p {
 }
 
 
-@media(max-width: 1080px) {
+@media(max-width: 1000px) {
     #sponsor{
         height: 700px;
         padding-top: 34px;
     }
 
+    .kosong{
+        display: none;
+    }
+
     .logo{
-        width: 40%;
+        width: 180px;
         height: 80px;
     }
 
