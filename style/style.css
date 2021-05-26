@@ -9,6 +9,7 @@ p {
 #sponsor {
     background-color: #02071B;
     height: 600px;
+    width: 100%;
     padding-top: 80px;
     padding-left: 60px;
 }
@@ -71,18 +72,23 @@ p {
         padding-top: 34px;
     }
 
+    .logo{
+        width: 40%;
+        height: 80px;
+    }
+
     .logo-group{
         position: relative;
-        left: 7%;
+        right: 7%;
     }
     .sponsor-title{
         position: relative;
-        left: 32%;
+        left: 24%;
     }
 
     .medpar-title{
         position: relative;
-        left: 29%;
+        left: 25%;
     }
 
 }
