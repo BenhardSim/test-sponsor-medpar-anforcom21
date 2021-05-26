@@ -31,6 +31,10 @@ p {
     color: #fff;
 }
 
+.logo-group{
+    width: 90%;
+}
+
 .logo-sponsor-1 {
     position: relative;
     top: 9px;
@@ -39,7 +43,7 @@ p {
 
 .logo-sponsor-2 {
     position: relative;
-    bottom: 3px;
+    bottom: 5px;
 }
 
 .logo-sponsor-3 {
@@ -62,7 +66,7 @@ p {
 
 .logo-medpar-1 {
     position: relative;
-    top: 15px;
+    top: 11px;
 }
 
 .logo {
@@ -71,9 +75,13 @@ p {
     background-color: #fff;
     text-align: center;
     border-radius: 8px;
-    width: 200px;
+    width: 180px;
     height: 80px;
     margin: 10px;
+}
+
+.kosong{
+    display: none;
 }
 
 
@@ -95,6 +103,7 @@ p {
     .logo-group{
         position: relative;
         right: 7%;
+        width: 100%;
     }
 
     .medpar{
