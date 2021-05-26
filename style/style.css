@@ -33,22 +33,23 @@ p {
 
 .logo-sponsor-1 {
     position: relative;
-    top: 13px;
+    top: 9px;
     height: 100%;
 }
 
 .logo-sponsor-2 {
     position: relative;
+    bottom: 3px;
 }
 
 .logo-sponsor-3 {
     position: relative;
-    top: 5px;
+    top: 2px;
 }
 
 .logo-sponsor-4 {
     position: relative;
-    top: 8px;
+    top: 4px;
 }
 
 .medpar {
@@ -87,8 +88,8 @@ p {
     }
 
     .logo{
-        width: 180px;
-        height: 80px;
+        width: 160px;
+        height: 70px;
     }
 
     .logo-group{
