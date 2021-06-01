@@ -15,7 +15,7 @@ p {
     font-size: 18px;
 }
 
-#sponsor {
+#sponsor-medpar {
     background-color: #02071B;
     height: 600px;
     width: 100%;
@@ -38,12 +38,11 @@ p {
 .logo-sponsor-1 {
     position: relative;
     top: 9px;
-    height: 100%;
+    height: 70%;
 }
 
 .logo-sponsor-2 {
     position: relative;
-    bottom: 5px;
 }
 
 .logo-sponsor-3 {
@@ -53,7 +52,7 @@ p {
 
 .logo-sponsor-4 {
     position: relative;
-    top: 4px;
+    top: 6px;
 }
 
 .medpar {
@@ -61,7 +60,7 @@ p {
 }
 
 .medpar-title{
-    padding-left: 40px;
+    padding-left: 10px;
 }
 
 .logo-medpar-1 {
@@ -80,15 +79,27 @@ p {
     margin: 10px;
 }
 
+.medpar-logo {
+    display: inline-block;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    width: 180px;
+    height: 80px;
+    margin: 10px;
+}
+
 .kosong{
     display: none;
 }
 
 
 @media(max-width: 1000px) {
-    #sponsor{
+    #sponsor-medpar{
         height: 700px;
         padding-top: 34px;
+        padding-left: 12px;
     }
 
     .kosong{
@@ -96,8 +107,15 @@ p {
     }
 
     .logo{
-        width: 160px;
+        width: 150px;
         height: 70px;
+    }
+
+    .medpar-logo{
+        width: 150px;
+        height: 70px;
+        position: relative;
+        left: 95px;
     }
 
     .logo-group{
@@ -117,12 +135,12 @@ p {
 
     .sponsor-title{
         position: relative;
-        left: 23%;
+        left: 24%;
     }
 
     .medpar-title{
         position: relative;
-        left: 19%;
+        left: 109px;
     }
 
 }
