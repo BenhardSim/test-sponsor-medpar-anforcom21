@@ -15,11 +15,15 @@ p {
     font-size: 18px;
 }
 
+h2{
+    font-size: 32px;
+}
+
 #sponsor-medpar {
     background-color: #02071B;
     height: 700px;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 200px;
     padding-left: 60px;
 }
 
@@ -108,6 +112,45 @@ p {
     display: none;
 }
 
+#teaser{
+    height: 800px;
+    width: 100%;
+    background-color: #02071B;
+}
+
+.teaser-title{
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+    line-height: 80%;
+}
+
+.teaser-2021{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.teaser-vid{
+    height: 428px;
+    width: 761px;
+}
+
+#daftar-sekarang{
+    height: 339px;
+    background-color: #02071B;
+    background-image: url("./../image/daftar-bg.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 80% 110%;
+    background-position: center center;
+}
+
+.daftar-title{
+    color: #fff;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
 
 @media(max-width: 600px) {
     #sponsor-medpar{
@@ -164,9 +207,8 @@ p {
     }
     
     .support-title{
-      position: relative;
-      right: 10px;
-      padding-bottom: 15px;
+        position: relative;
+        right: 5%;
     }
     .support-logo{
         width: 100px;
